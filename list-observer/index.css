@@ -1,0 +1,40 @@
+html, body, .viewport, #app {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    width: 600px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.row > span, .header > span {
+    flex: 0.25;
+}
+
+#observer {
+    width: inherit;
+    height: 60px;
+}

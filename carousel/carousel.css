@@ -1,0 +1,30 @@
+html, body, .viewport {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#content {
+    height: inherit;
+    position: relative;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#content > img {
+    position: absolute;
+    height: inherit;
+}
